@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -35,7 +34,7 @@ ALLOWED_HOSTS = ['.gamesdom.com']
 
 PICTURT_UPLOAD_DIR = './upload/'
 
-PICTURT_DOWNLOAD_BASE_URL = 'www.gamesdom.com/'
+PICTURT_DOWNLOAD_BASE_URL = 'http://reswp.gamesdom.com/pic/get_picfile?'
 
 
 # Application definition
@@ -47,7 +46,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'debug_toolbar',
     'PictureInfo',
 )
 
@@ -58,7 +56,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'mobileSrv.urls'
@@ -87,6 +84,10 @@ if DEBUG:
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
 LANGUAGE_CODE = 'zh-cn'
+
+DEFAULT_CHARSET = 'utf-8'
+
+FILE_CHARSET = 'utf-8'
 
 TIME_ZONE = 'UTC'
 

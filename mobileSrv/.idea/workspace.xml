@@ -26,30 +26,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/django/conf/urls/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="43" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
+            <state line="46" column="20" selection-start="1917" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="66" selection-start="2653" selection-end="2653" vertical-scroll-proportion="1.5589888" vertical-offset="1080" max-vertical-offset="2880">
+            <state line="102" column="26" selection-start="3903" selection-end="3903" vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="3540">
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobileSrv/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlresolvers.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/django/core/urlresolvers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="17" selection-start="7564" selection-end="7564" vertical-scroll-proportion="0.0" vertical-offset="6270" max-vertical-offset="17460">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basehttp.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/django/core/servers/basehttp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="50" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="5250">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/wsgiref/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="24" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="5130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mimetypes.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/mimetypes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="18" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3270">
+            <state line="12" column="53" selection-start="383" selection-end="383" vertical-scroll-proportion="0.26966292" vertical-offset="240" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
@@ -67,34 +112,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1470">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importlib.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="8" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PictureInfo/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="2160">
+            <state line="34" column="8" selection-start="1261" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -111,18 +129,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mobileSrv/urls.py" />
-        <option value="$PROJECT_DIR$/mobileSrv/settings.py" />
         <option value="$PROJECT_DIR$/PictureInfo/admin.py" />
         <option value="$PROJECT_DIR$/PictureInfo/models.py" />
-        <option value="$PROJECT_DIR$/PictureInfo/urls.py" />
         <option value="C:/Python27/Lib/site-packages/django/utils/importlib.py" />
+        <option value="$PROJECT_DIR$/PictureInfo/urls.py" />
         <option value="$PROJECT_DIR$/PictureInfo/views.py" />
+        <option value="$PROJECT_DIR$/mobileSrv/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-11" />
+    <option name="y" value="43" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -152,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,105 +179,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="20141112" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileSrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PictureInfo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,15 +441,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-11" y="43" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32614556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32614556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26606685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27249357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -560,7 +482,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/PictureInfo/views.py</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -603,13 +525,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobileSrv/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="450">
@@ -619,23 +534,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1410">
+        <state line="34" column="8" selection-start="1261" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/admin.py">
@@ -647,16 +553,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="5" column="32" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="79" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1860">
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,9 +588,7 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1410">
-          <folding />
-        </state>
+        <state line="41" column="0" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1410" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/contrib/admin/options.py">
@@ -696,16 +598,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="5" column="32" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="42" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1500">
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,9 +633,7 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1410">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1410" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/contrib/admin/options.py">
@@ -745,16 +643,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="6" column="1" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="25" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1590">
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,16 +685,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="5" column="32" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="35" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1500">
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -822,21 +716,6 @@
         <state line="19" column="40" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1020">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileSrv/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="712" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HttpService/SearchFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HttpService/conf/server.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="74" selection-end="74" vertical-scroll-proportion="0.20316027" vertical-offset="0" max-vertical-offset="443" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/http/response.py">
@@ -864,23 +743,45 @@
         <state line="325" column="8" selection-start="12703" selection-end="12703" vertical-scroll-proportion="3.113764" vertical-offset="7203" max-vertical-offset="11760" />
       </provider>
     </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1273" column="69" selection-start="54633" selection-end="54633" vertical-scroll-proportion="0.12875536" vertical-offset="36870" max-vertical-offset="50490" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="520" selection-end="520" vertical-scroll-proportion="-1.2787724" vertical-offset="950" max-vertical-offset="12150" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="0" selection-start="4537" selection-end="4537" vertical-scroll-proportion="0.3325062" vertical-offset="2806" max-vertical-offset="8430" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="8" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.4893617" vertical-offset="880" max-vertical-offset="1350" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/wsgiref/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/mimetypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobileSrv/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/admin/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1273" column="69" selection-start="54633" selection-end="54633" vertical-scroll-proportion="0.12875536" vertical-offset="36870" max-vertical-offset="50490" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/admin.py">
@@ -890,55 +791,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
+    <entry file="file://C:/Python27/Lib/site-packages/django/core/servers/basehttp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3270">
+        <state line="45" column="50" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4830">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/urlresolvers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="26" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.6302729" vertical-offset="2896" max-vertical-offset="17010" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1380">
+        <state line="209" column="17" selection-start="7564" selection-end="7564" vertical-scroll-proportion="0.0" vertical-offset="5556" max-vertical-offset="17010">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="520" selection-end="520" vertical-scroll-proportion="-1.2787724" vertical-offset="950" max-vertical-offset="12150" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="934" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="4537" selection-end="4537" vertical-scroll-proportion="0.3325062" vertical-offset="2806" max-vertical-offset="8430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="2" column="35" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/conf/urls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="20" selection-start="1917" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileSrv/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="8" selection-start="1261" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="66" selection-start="2653" selection-end="2653" vertical-scroll-proportion="1.5589888" vertical-offset="1080" max-vertical-offset="2880">
+        <state line="102" column="26" selection-start="3903" selection-end="3903" vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="3540">
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="383" selection-end="383" vertical-scroll-proportion="0.26966292" vertical-offset="240" max-vertical-offset="3300">
+          <folding />
         </state>
       </provider>
     </entry>
