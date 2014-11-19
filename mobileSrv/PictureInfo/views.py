@@ -1,6 +1,7 @@
 import json
 import mimetypes
 import re
+from PIL import Image
 from datetime import datetime, date
 from django.core.servers.basehttp import FileWrapper
 from django.http import HttpResponse, HttpRequest
@@ -32,7 +33,6 @@ def get_pic(request):
     for t in timelist:
         tmp = datetime.strptime(datetime.strftime(t['time'], '%Y-%m-%d'), '%Y-%m-%d')
         datelist.append(tmp)
-    #datelist = [t['time'] for t in timelist]
     try:
         index = datelist.index(basetime)
         time_list = [t['time'] for t in timelist[index:]]
@@ -59,12 +59,14 @@ def get_pic(request):
         pics = PicInfo.objects.filter(type__typeid__in=type)
     pic_count = len(pics)
     for p in pics:
+        im = Image.open(p.isrc.path)
+        width, height = im.size
         pic_list.append({
             'photo_id': p.pic_id,
             'photo_name': p.pic_name,
-            'iwd': p.iwd,
-            'iht': p.iht,
-            'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + p.pic_id + '&filename=' + p.pic_name,
+            'iwd': width if p.iwd == 0 else p.iwd,
+            'iht': height if p.iht == 0 else p.iht,
+            'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + p.pic_id + '&filename=' + p.pic_name if final is not True else '',
             'uploadtime': date.strftime(p.time, '%Y%m%d'),
             'msg': p.msg,
         })
@@ -72,7 +74,10 @@ def get_pic(request):
         'picsize': pic_count,
         'pic': pic_list,
     }
-    return HttpResponse(json.dumps({'data': data, 'final': final, 'success': True}))
+    if final is not True:
+        return HttpResponse(json.dumps({'data': data, 'final': final, 'success': True}))
+    else:
+        return HttpResponse()
 
 def get_basetime(request):
     if not isinstance(request, HttpRequest):
@@ -100,14 +105,26 @@ def get_picfile(request):
         file_name = request.GET.get('filename')
         fileset = PicInfo.objects.filter(pic_id=file_id).values('isrc')
         file = fileset[0]
-        print file['isrc']
         file_path = re.search('\./(.+?)$', file['isrc']).group(1)
-        print file_path
-        print file_name
-    #filepath = os.path.join(settings.MEDIA_ROOT, filename)
-    print file_path
     wrapper = FileWrapper(open(file_path, 'rb'))
     content_type = mimetypes.guess_type(file_path)[0]
     response = HttpResponse(wrapper, mimetype='content_type')
     response['Content-Disposition'] = "attachment; filename=%s" % file_name
     return response
+
+def get_maxoffset(request):
+    if not isinstance(request, HttpRequest):
+        raise
+    if request.method == 'POST':
+        data = json.loads(request.body)
+    else:
+        type = str(request.GET.get('type')).split(',')
+        if request.GET.get('type') is None:
+            return HttpResponse(json.dumps({'error': 'ERROR_TYPE', 'success': False}))
+        timelist = PicInfo.objects.filter(type__typeid__in=type).values('time').distinct().order_by('-time')
+    lastdate = []
+    if len(timelist) > 0:
+        lastdate = [t['time'] for t in timelist]
+        return HttpResponse(len(timelist) - 1)
+    else:
+        return HttpResponse(0)

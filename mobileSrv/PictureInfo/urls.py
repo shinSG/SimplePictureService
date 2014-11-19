@@ -6,4 +6,5 @@ urlpatterns = patterns('PictureInfo.views',
     url(r'^get_pic$', 'get_pic'),
     url(r'^get_basetime$', 'get_basetime'),
     url(r'^get_picfile$','get_picfile'),
+    url(r'^get_maxoffset$','get_maxoffset'),
 )

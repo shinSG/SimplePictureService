@@ -19,7 +19,7 @@ del_model.short_description = 'Delete selected item(s)'
 
 class PictureInfoAdmin(admin.ModelAdmin):
     list_display = ('pic_id', 'pic_name', 'time', 'type')
-    list_filter = ('pic_id', 'pic_name', 'time')
+    list_filter = ('type__type', 'time')
     search_fields = ('pic_id', 'pic_name', 'time')
     actions = [del_model]
 
