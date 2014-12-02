@@ -25,7 +25,7 @@ def get_upload_path(instance, filename):
     return os.path.join(settings.PICTURT_UPLOAD_DIR, instance.type.typeid + '/' + today_str + '/' + filename)
 
 class PicInfo(models.Model):
-    pic_id = models.CharField(max_length=128, primary_key=True, unique=True)
+    #pic_id = models.CharField(max_length=128, primary_key=True, unique=True)
     pic_name = models.CharField(max_length=256)
     iwd = models.IntegerField(max_length=20, default=0)
     iht = models.IntegerField(max_length=20, default=0)

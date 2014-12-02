@@ -62,11 +62,11 @@ def get_pic(request):
         im = Image.open(p.isrc.path)
         width, height = im.size
         pic_list.append({
-            'photo_id': p.pic_id,
+            'photo_id': p.id,
             'photo_name': p.pic_name,
             'iwd': width if p.iwd == 0 else p.iwd,
             'iht': height if p.iht == 0 else p.iht,
-            'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + p.pic_id + '&filename=' + p.pic_name if final is not True else '',
+            'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + p.id + '&filename=' + p.pic_name if final is not True else '',
             'uploadtime': date.strftime(p.time, '%Y%m%d'),
             'msg': p.msg,
         })
@@ -103,7 +103,7 @@ def get_picfile(request):
             return HttpResponse(json.dumps({'error': 'NO_URL', 'success': False}))
         file_id = request.GET.get('url')
         file_name = request.GET.get('filename')
-        fileset = PicInfo.objects.filter(pic_id=file_id).values('isrc')
+        fileset = PicInfo.objects.filter(id=file_id).values('isrc')
         file = fileset[0]
         file_path = re.search('\./(.+?)$', file['isrc']).group(1)
     wrapper = FileWrapper(open(file_path, 'rb'))

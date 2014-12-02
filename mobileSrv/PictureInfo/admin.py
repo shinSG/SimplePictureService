@@ -18,9 +18,9 @@ def del_model(modeladmin, request, queryset):
 del_model.short_description = 'Delete selected item(s)'
 
 class PictureInfoAdmin(admin.ModelAdmin):
-    list_display = ('pic_id', 'pic_name', 'time', 'type')
+    list_display = ('pic_name', 'time', 'type')
     list_filter = ('type__type', 'time')
-    search_fields = ('pic_id', 'pic_name', 'time')
+    search_fields = ('pic_name', 'time')
     actions = [del_model]
 
     def delete_model(self, request, obj):
