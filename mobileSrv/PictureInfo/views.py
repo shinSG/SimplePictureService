@@ -68,6 +68,7 @@ def get_pic(request):
             'iht': height if p.iht == 0 else p.iht,
             'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + p.id + '&filename=' + p.pic_name if final is not True else '',
             'uploadtime': date.strftime(p.time, '%Y%m%d'),
+            'favor': p.favor,
             'msg': p.msg,
         })
     data = {
@@ -128,3 +129,24 @@ def get_maxoffset(request):
         return HttpResponse(len(timelist) - 1)
     else:
         return HttpResponse(0)
+
+
+def pic_favor(request):
+    if request.method == 'POST':
+        return {'error': 'WRONG REQUEST'}
+    if request.GET.get('picid') is None:
+        return {'error': 'No Pic ID'}
+    picid = request.GET.get('picid')
+    action = 'get'
+    if request.GET.get('action'):
+        action = request.GET.get('action')
+    if action == 'get':
+        favor = PicInfo.objects.filter(id=picid).values('favor')
+    if action == 'set':
+        pic = PicInfo.objects.get(id=picid)
+        favortmp = pic.favor + 1
+        pic.favor = favortmp
+        pic.save()
+        favor = pic.favor + 1
+
+    return json.dumps({'picid': picid, 'favor': favor})

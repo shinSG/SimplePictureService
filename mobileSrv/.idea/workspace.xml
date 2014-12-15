@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1380">
+            <state line="32" column="58" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.53651685" vertical-offset="488" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,19 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="352" selection-end="352" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="3810">
+            <state line="137" column="37" selection-start="5243" selection-end="5243" vertical-scroll-proportion="0.0" vertical-offset="3487" max-vertical-offset="4470">
+              <folding>
+                <marker date="1418617087349" expanded="true" signature="352:2934" placeholder="..." />
+                <marker date="1418617087349" expanded="true" signature="5089:5701" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="33" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -47,16 +59,16 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PictureInfo/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="32" selection-start="2299" selection-end="2299" vertical-scroll-proportion="-54.0" vertical-offset="0" max-vertical-offset="1980">
+            <state line="60" column="32" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.0" vertical-offset="1281" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="190" selection-end="190" vertical-scroll-proportion="-5.638298" vertical-offset="2830" max-vertical-offset="3300">
+            <state line="99" column="0" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
@@ -72,13 +84,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mobileSrv/urls.py" />
         <option value="C:/Python27/Lib/site-packages/django/utils/importlib.py" />
-        <option value="$PROJECT_DIR$/PictureInfo/urls.py" />
         <option value="$PROJECT_DIR$/mobileSrv/settings.py" />
+        <option value="$PROJECT_DIR$/PictureInfo/admin.py" />
         <option value="$PROJECT_DIR$/PictureInfo/models.py" />
         <option value="$PROJECT_DIR$/PictureInfo/views.py" />
-        <option value="$PROJECT_DIR$/PictureInfo/admin.py" />
+        <option value="$PROJECT_DIR$/mobileSrv/urls.py" />
+        <option value="$PROJECT_DIR$/PictureInfo/urls.py" />
       </list>
     </option>
   </component>
@@ -114,7 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,10 +174,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../svn/WallpaperService" />
     <property name="options.lastSelected" value="pyconsole" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -266,7 +278,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mobileSrv" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -292,27 +324,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mobileSrv" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -427,11 +439,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32614556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27570695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27956298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -541,7 +553,10 @@
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="79" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1860">
-          <folding />
+          <folding>
+            <marker date="1418617087349" expanded="true" signature="352:2934" placeholder="..." />
+            <marker date="1418617087349" expanded="true" signature="5089:5701" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,7 +599,10 @@
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="42" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1500">
-          <folding />
+          <folding>
+            <marker date="1418617087349" expanded="true" signature="352:2934" placeholder="..." />
+            <marker date="1418617087349" expanded="true" signature="5089:5701" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,7 +645,10 @@
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="25" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1590">
-          <folding />
+          <folding>
+            <marker date="1418617087349" expanded="true" signature="352:2934" placeholder="..." />
+            <marker date="1418617087349" expanded="true" signature="5089:5701" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +688,10 @@
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="35" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1500">
-          <folding />
+          <folding>
+            <marker date="1418617087349" expanded="true" signature="352:2934" placeholder="..." />
+            <marker date="1418617087349" expanded="true" signature="5089:5701" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -744,30 +768,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileSrv/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/servers/basehttp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="50" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4830">
-          <folding />
-        </state>
+        <state line="45" column="50" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4830" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/urlresolvers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="17" selection-start="7564" selection-end="7564" vertical-scroll-proportion="0.0" vertical-offset="5556" max-vertical-offset="17010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+        <state line="209" column="17" selection-start="7564" selection-end="7564" vertical-scroll-proportion="0.0" vertical-offset="5556" max-vertical-offset="17010" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/conf/urls/__init__.py">
@@ -784,9 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobileSrv/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/mimetypes.py">
@@ -796,30 +802,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PictureInfo/admin.py">
+    <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="32" selection-start="2299" selection-end="2299" vertical-scroll-proportion="-54.0" vertical-offset="0" max-vertical-offset="1980">
+        <state line="99" column="0" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
+    <entry file="file://$PROJECT_DIR$/PictureInfo/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1380">
+        <state line="60" column="32" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.0" vertical-offset="1281" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileSrv/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.21067415" vertical-offset="0" max-vertical-offset="712">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PictureInfo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="352" selection-end="352" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="3810">
+        <state line="137" column="37" selection-start="5243" selection-end="5243" vertical-scroll-proportion="0.0" vertical-offset="3487" max-vertical-offset="4470">
+          <folding>
+            <marker date="1418617087349" expanded="true" signature="352:2934" placeholder="..." />
+            <marker date="1418617087349" expanded="true" signature="5089:5701" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PictureInfo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileSrv/settings.py">
+    <entry file="file://$PROJECT_DIR$/PictureInfo/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="190" selection-end="190" vertical-scroll-proportion="-5.638298" vertical-offset="2830" max-vertical-offset="3300">
+        <state line="32" column="58" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.53651685" vertical-offset="488" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>

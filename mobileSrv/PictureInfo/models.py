@@ -33,6 +33,7 @@ class PicInfo(models.Model):
     time = models.DateField(default=datetime.date.today())
     type = models.ForeignKey(PicType)
     isrc = models.ImageField(upload_to=get_upload_path)
+    favor = models.BigIntegerField()
 
 
     def __unicode__(self):
