@@ -66,7 +66,7 @@ def get_pic(request):
             'photo_name': p.pic_name,
             'iwd': width if p.iwd == 0 else p.iwd,
             'iht': height if p.iht == 0 else p.iht,
-            'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + p.id + '&filename=' + p.pic_name if final is not True else '',
+            'isrc': settings.PICTURT_DOWNLOAD_BASE_URL + 'url=' + str(p.id) + '&filename=' + p.pic_name if final is not True else '',
             'uploadtime': date.strftime(p.time, '%Y%m%d'),
             'favor': p.favor,
             'msg': p.msg,
@@ -141,12 +141,13 @@ def pic_favor(request):
     if request.GET.get('action'):
         action = request.GET.get('action')
     if action == 'get':
-        favor = PicInfo.objects.filter(id=picid).values('favor')
+        pfavor = PicInfo.objects.filter(id=picid).values('favor')
+        favor = pfavor[0]['favor']
     if action == 'set':
         pic = PicInfo.objects.get(id=picid)
         favortmp = pic.favor + 1
         pic.favor = favortmp
         pic.save()
-        favor = pic.favor + 1
+        favor = pic.favor
 
-    return json.dumps({'picid': picid, 'favor': favor})
+    return HttpResponse(json.dumps({'picid': picid, 'favor': favor}))
